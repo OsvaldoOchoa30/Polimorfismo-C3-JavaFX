@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.osvaldoochoa.polimorfismoc3.controllers.CrearEstudianteController">
+   <children>
+      <TextField fx:id="nombreEstudiante" layoutX="225.0" layoutY="147.0" promptText="Nombre" />
+      <TextField fx:id="edadEstudiante" layoutX="225.0" layoutY="187.0" promptText="Edad" />
+      <TextField fx:id="idEstudiante" layoutX="229.0" layoutY="225.0" promptText="Id" />
+      <Button fx:id="buttonGuardar" layoutX="274.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#buttonGuardar" text="Guardar" />
+      <Button fx:id="buttonBacktoMenu" layoutX="46.0" layoutY="38.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedbuttonBacttoMenu" text="Back" />
+   </children>
+</AnchorPane>

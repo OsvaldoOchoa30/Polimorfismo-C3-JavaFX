@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.osvaldoochoa.polimorfismoc3.controllers.PrincipalController">
+   <children>
+      <Button fx:id="buttonAgregar" layoutX="225.0" layoutY="171.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedbuttonAgregar" prefHeight="50.0" prefWidth="102.0" text="Agregar" />
+      <Button fx:id="buttonActualizar" layoutX="459.0" layoutY="171.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedbuttonActualizar" prefHeight="50.0" prefWidth="102.0" text="Actualizar" />
+      <Button fx:id="buttonBDD1" layoutX="77.0" layoutY="342.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedbuttonBDD1" prefHeight="50.0" prefWidth="102.0" text="Base de Datos 1" />
+      <Button fx:id="buttomBDD2" layoutX="276.0" layoutY="342.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedbuttonBDD2" prefHeight="50.0" prefWidth="102.0" text="Base de Datos 2" />
+      <Button fx:id="buttomBDD3" layoutX="510.0" layoutY="342.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedbuttonBDD3" prefHeight="50.0" prefWidth="102.0" text="Base de Datos 3" textFill="RED" />
+   </children>
+</AnchorPane>
